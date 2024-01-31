@@ -10,7 +10,7 @@ header{
     width: 100%;
     
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between ;
 }
 
 .logo{
@@ -20,7 +20,7 @@ header{
 
 .list{
     display:flex;
-    justify-content: space-around;  
+    justify-content: space-evenly;  
     list-style: none;
     padding-top: 10px;
     padding-right: 30px;
@@ -37,6 +37,7 @@ header li{
 nav{
     display: flex;
     padding: 25px;
+    justify-content: space-evenly;
 }
 
 nav .me{
@@ -91,6 +92,7 @@ img{
 
     height: 600px;
     width: 600px;
+    padding-top: 20px;
    
 }
 
@@ -101,6 +103,7 @@ nav .img{
 
 .first{
     display: flex;
+    justify-content: space-evenly;
 }
 
 .first .secimg{
@@ -169,6 +172,7 @@ nav .img{
 
     display: flex;
     padding-top: 50px;
+    justify-content: space-evenly;
 }
 
 .sec .bar{
