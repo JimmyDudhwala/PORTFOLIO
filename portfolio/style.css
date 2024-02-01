@@ -2,50 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    
 }
 
 
+/* header css START */
 
 header{
     height: 55px;
     width: 100%;
-    
     display: flex;
     justify-content: space-between ;
+    align-items: center;
+    position: fixed;
+    bottom: 740px;
+    background-color: #c8d5e7;
+    z-index: 10;
+    box-shadow: #367cd7;
+    
 }
 
-.logo{
-    padding-top: 10px;
-    margin: 10px;
+header .sig img{
+
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 40px;
+    bottom: 8px;
+    transition-duration: 0.5s ;
+
 }
 
-.list{
+header ul{
     display:flex;
-    justify-content: space-evenly;  
+   
+    justify-content: end;  
     list-style: none;
-    padding-top: 10px;
-    padding-right: 30px;
+    align-items: center;
+    gap: 20px;
+    padding-right:8px ;
+    
+
+    
 }
 
 header li{
+    display: flex; 
     margin: 10px;
     display: flex;
     font-size: 20px;
-    padding-right: 30px;
-  
+    transition-duration: 0.5s ;
 }
 
+header li:hover {
+
+    color: rgb(10, 246, 234);
+    text-decoration: solid;
+    transform: scale(1.3);
+    
+}
+
+header .sig img:hover{
+
+    transform: scale(1.3);
+}
+
+/* header css OVER */
+
+
+
+/* Nav css OVER */
+
+
+
 nav{
+
     display: flex;
     padding: 25px;
     justify-content: space-evenly;
+    gap: 5px;
 }
 
+
+nav .about{
+
+    position: relative;
+    left : 30px;
+    width: 650px;
+
+}
 nav .me{
 
     margin-top: 100px;
     padding-left: 30px;
-    width: 650px;
+    
 
 }
 
@@ -62,17 +114,48 @@ nav p{
 nav .links{
     display: flex;
     padding-left: 30px;
+    align-items: center;
+
 }
 
 nav li{
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+   
     list-style: none;
-    margin: 10px;
-    padding-top: 30px;
-    padding-left: 20px;
-    font-size: 25px;
+    margin: 25px 20px;
+    padding-top: 5px;
+    padding-left: 2px;
+    text-decoration: none;
+    overflow: hidden;
 
 
+}
+
+.github{
+    background-color: #333;
+}
+
+.linkedn{
+    background-color: #0077b5;
+}
+
+.x{
+    color: #000000;
+    background-color: #1DA1F2;
+}
+
+.ig{
+    color: solid white;
+    background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
 nav .buttons{
@@ -85,8 +168,18 @@ nav .buttons{
 button{
 
     margin: 3px;
-    height: 35px;
-    width: 100px;
+    height: 40px;
+    width: 120px;
+    border-radius: 20px;
+
+    
+}
+
+button a{
+
+    color:#333;
+    font-size: medium;
+    text-decoration: none;
 }
 
 img{
@@ -439,6 +532,18 @@ nav .img{
     
   }
 
+  .title{
+
+    position: relative;
+    bottom: 60px;
+  }
+
+  .self{
+    position: relative;
+    left: 180px;
+    
+  }
+
 
 
   .self .myphoto img{
@@ -454,7 +559,7 @@ nav .img{
   .self .myphoto{
     position: relative;
     top:30px;
-    left: 230px;
+    left: 200px;
     width: 200px;
     height: 200px;
     border-radius: 120px;
@@ -528,7 +633,7 @@ nav .img{
     
 }
 
-.copy .sortcut ul{
+.copy .shortcut ul{
 
     display: flex;
     list-style: none;
@@ -538,7 +643,7 @@ nav .img{
 }
 
 .grid li{
-    
+   
     list-style: none;
 }
 
