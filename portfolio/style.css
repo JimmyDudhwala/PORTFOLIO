@@ -5,6 +5,7 @@
 }
 
 
+
 header{
     height: 55px;
     width: 100%;
@@ -403,5 +404,146 @@ nav .img{
   }
 
   .code{
-    padding: 20px;
+    padding: 30px;
   }
+
+  .title span{
+    font-size: 40px;
+    padding-left: 80px;
+  }
+
+  .self{
+    background-color:#fff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    display: flex;
+    position: relative;
+    width: 1000px;
+    height: 250px;
+    left: 120px;
+    
+    border-radius: 30px;
+   
+
+  }
+
+  
+  .connect .name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    top:10px;
+    left: 10px;
+    font-size:15px;
+    
+    
+  }
+
+
+
+  .self .myphoto img{
+    position: relative;
+    top:-10px;
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    
+
+  }
+
+  .self .myphoto{
+    position: relative;
+    top:30px;
+    left: 230px;
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    overflow: hidden;
+  }
+
+  .self .connect .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 180px;
+    justify-content: flex-end;
+    gap:20px
+
+  }
+
+  .self .connect .contact .links{ 
+    display: flex;
+    list-style: none;
+    gap: 10px;
+   
+    align-items: flex-end; 
+  }
+
+  .grid{
+
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows:350px 100px  ;
+    width: 100%;
+    height: 100%;
+    background-color: #96a2b2;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 30px;
+    position: relative;
+    top: 50px;
+}
+
+.grid .about1{
+
+    grid-column: 1/2;
+    grid-row: 1/2;
+   
+    padding: 20px;
+
+}
+
+.grid .skills1{
+
+    grid-column: 2/3;
+    grid-row: 1/2;
+    
+    padding: 20px;
+}
+
+.grid .quick{
+
+    grid-column: 3/4;
+    grid-row: 1/2;
+    
+    padding: 20px;
+}
+
+.grid .copy{
+
+    grid-column: 1/4;
+    grid-row: 2/3;
+    
+    padding: 20px;
+    
+}
+
+.copy .sortcut ul{
+
+    display: flex;
+    list-style: none;
+    gap:10px;
+    padding: 20px;
+
+}
+
+.grid li{
+    
+    list-style: none;
+}
+
+.grid .heading{
+
+    font-size:30px;
+}
+
